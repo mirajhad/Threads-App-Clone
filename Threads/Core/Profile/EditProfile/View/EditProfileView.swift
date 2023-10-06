@@ -66,7 +66,7 @@ struct EditProfileView: View {
                 .cornerRadius(10)
                 .overlay{
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color(.systemGray4), lineWidth:1)
+                        .stroke(Color(.systemGray4), lineWidth:1 )
                 }
                 .padding()
             }
