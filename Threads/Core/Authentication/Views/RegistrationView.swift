@@ -31,6 +31,7 @@ struct RegistrationView: View {
                     .modifier(ThreadsTextFieldModifier())
                 
                 TextField("Enter your username",text:$viewModel.username)
+                    .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     .modifier(ThreadsTextFieldModifier())
             }
             
